@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Vida Digital</title>
+  </head>
+  <body>
+    <header>
+      <svg width="150px" height="100px" viewBox="0 0 150 100">
+        <image width="150px" height="100px" xlink:href="media/JMLogo.svg"></image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Jonathan Salomón Morán Aguilar</h2>
+    </header>
+<!-------------------------------------------------->
+    <h3>24 de Febrero del 1993</h3>
+    <h3>Guadalupe Victoria, Durango, Mexico</h3>
+
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a>Educacion</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+
+    <h2>Educacion</h2>
+<!Tabla---------------------------------------------------->
+    <table border="2">
+      <thead>
+        <th>Año</th>
+        <th>Institucion</th>
+        <th>Lugar</th>
+        <th>¿Culmino?</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2007</td>
+          <td>Escuela Secundaria Tecnica #8</td>
+          <td>Guadalupe Victoria, Dgo.</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>2008</td>
+          <td>Escuela Secundaria Tecnica: Jose Santos Valdez</td>
+          <td>Victoria de Durango, Dgo.</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2010</td>
+          <td>Centro de Bachillerato Tecnológico Industrial y de Servicio #110</td>
+          <td>Victoria de Durango, Dgo.</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2011</td>
+          <td>Instituto Tecnologico de Durango</td>
+          <td>Victoria de Durango, Dgo.</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+    </table>
+<!Fomulario-------------------------------------------------->
+  <fieldset>
+    <legend><h3>Agregar Estudios</h3></legend>
+
+    <p>Año:
+    <select>
+      <option>2016</option>
+      <option>2015</option>
+      <option>2014</option>
+      <option>2013</option>
+      <option>2012</option>
+    </select>
+    </p>
+
+    <form >
+      <label for="institucion">Institucion:</label><br>
+      <input type="text" name="Institucion" id="intsitucion" maxlength="50" placeholder="Ejem: Next University" required=""><br><br>
+      <label for="lugar">Lugar:</label><br>
+      <input type="text" name="Lugar" id="lugar" maxlength="50" placeholder="Ejem: Miami" required=""><br><br>
+
+      <label for="genero">¿Culmino?</label>
+      <input type="radio" name="Respuesta" id="RSi" checked="">Si
+      <input type="radio" name="Respuesta" id="RNo">No  <br>
+
+      <label for="boton"></label>
+      <input type="submit" value="Enviar" id="boton">
+    </form>
+
+
+  </fieldset>
+  <!----------------------------------------------->
+    <footer>
+      <fieldset>
+        <legend>  <h4>Contacto</h4></legend>
+          <a href="mailto:JonathanSM117@hotmail.com?subject=feedback"><strong>Correo:</strong>JonathanSM117@hotmail.com</a>
+          <p><strong>Telefono:</strong> +526181822889 </p>
+          <a href="https://www.facebook.com/jonathan.moran.1426" target="_blank"><strong>Facebook</strong></a>
+      </fieldset>
+    </footer>
+  </body>
+</html>
